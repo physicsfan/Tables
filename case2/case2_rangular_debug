@@ -1,0 +1,207 @@
+
+ RANGULAR
+ This program performs angular integration 
+ Input file:  rcsf.inp
+ Outputfiles: mcp.30, mcp.31, ....
+ rangular.log                     
+
+ Block            1 ,  ncf =            1
+ Block            2 ,  ncf =            2
+ Block            3 ,  ncf =            1
+ Loading CSF file ... Header only
+ There are/is            7  relativistic subshells;
+
+ Block            1 ,  ncf =            1
+ Loading CSF File for block            1
+ Subshell 3p  is empty in all CSFs
+ There are            1  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  1  1  0
+JQSA(1):   0  0  0  0  1  1  0
+JQSA(2):   0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  2  2  1
+JCUPA:   1  0  0  0  0  0
+LAST:  -1
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  0
+NCF =   1
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0   5   6   5   6              1.0000
+  1   1  1   5   6   6   5             -0.3333
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           1  V(k=           1 ) coefficients generated;
+           0  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           1 /           1
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 1 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 0 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+
+ Block            2 ,  ncf =            2
+ Loading CSF File for block            2
+ There are            2  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  1  0  1
+JQSA(1):   0  0  0  0  1  0  1
+JQSA(2):   0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  2  1  4
+JCUPA:   3  0  0  0  0  0
+LAST:  -3
+
+
+
+CSF:  2
+IQA:   2  2  2  4  1  1  0
+JQSA(1):   0  0  0  0  1  1  0
+JQSA(2):   0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  2  2  1
+JCUPA:   3  0  0  0  0  0
+LAST:  -3
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   2
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0   5   7   5   7              1.0000
+  1   1  1   5   7   7   5              0.1111
+----------------------------------------------
+  1   2  1   5   7   6   5              0.3143
+----------------------------------------------
+  2   2  0   5   6   5   6              1.0000
+  2   2  1   5   6   6   5             -0.1111
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           3  V(k=           1 ) coefficients generated;
+           0  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           3 /           3
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 3 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 0 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+
+ Block            3 ,  ncf =            1
+ Loading CSF File for block            3
+ Subshell 3p- is empty in all CSFs
+ There are            1  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  1  0  1
+JQSA(1):   0  0  0  0  1  0  1
+JQSA(2):   0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  2  1  4
+JCUPA:   5  0  0  0  0  0
+LAST:  -5
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   1
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0   5   7   5   7              1.0000
+  1   1  1   5   7   7   5             -0.3333
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           1  V(k=           1 ) coefficients generated;
+           0  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           1 /           1
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 1 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 0 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+
+ Wall time:
+        0 seconds
+
+ Finish Date and Time:
+   Date (Yr/Mon/Day): 2019/11/30
+   Time (Hr/Min/Sec): 16/40/59.988
+   Zone: -0800
+
+ RANGULAR: Execution complete.

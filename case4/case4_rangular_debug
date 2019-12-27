@@ -1,0 +1,671 @@
+
+ RANGULAR
+ This program performs angular integration 
+ Input file:  rcsf.inp
+ Outputfiles: mcp.30, mcp.31, ....
+ rangular.log                     
+
+ Block            1 ,  ncf =            2
+ Block            2 ,  ncf =            1
+ Block            3 ,  ncf =            3
+ Block            4 ,  ncf =            1
+ Block            5 ,  ncf =            3
+ Block            6 ,  ncf =            1
+ Block            7 ,  ncf =            2
+ Loading CSF file ... Header only
+ There are/is           19  relativistic subshells;
+
+ Block            1 ,  ncf =            2
+ Loading CSF File for block            1
+ There are            2  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  0  2  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   1
+
+
+
+CSF:  2
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  2  0  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   1
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  0
+NCF =   2
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  16  16  16  16              1.0000
+  1   1  2  16  16  16  16              0.2381
+  1   1  4  16  16  16  16              0.1169
+  1   1  6  16  16  16  16              0.0583
+----------------------------------------------
+  1   2  2  16  16  15  15              0.0330
+  1   2  4  16  16  15  15              0.0750
+  1   2  6  16  16  15  15              0.2019
+----------------------------------------------
+  2   2  0  15  15  15  15              1.0000
+  2   2  2  15  15  15  15              0.2286
+  2   2  4  15  15  15  15              0.0952
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           3  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           3  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           2  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           3 /           3
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 3 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 3 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 2 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Block            2 ,  ncf =            1
+ Loading CSF File for block            2
+ There are            1  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  1  1  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  6  8  1  1  1
+JCUPA:   3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   3
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   1
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  15  16  15  16              1.0000
+  1   1  2  15  16  15  16              0.2041
+  1   1  4  15  16  15  16              0.0612
+  1   1  2  15  16  16  15             -0.0041
+  1   1  4  15  16  16  15             -0.0309
+  1   1  6  15  16  16  15             -0.1748
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           2  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           2  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           1  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           1 /           1
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 2 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 2 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 1 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Block            3 ,  ncf =            3
+ Loading CSF File for block            3
+ There are            3  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  0  2  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  5  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   5
+
+
+
+CSF:  2
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  1  1  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  6  8  1  1  1
+JCUPA:   5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   5
+
+
+
+CSF:  3
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  2  0  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  5  1  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   5
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   3
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  16  16  16  16              1.0000
+  1   1  2  16  16  16  16              0.1111
+  1   1  4  16  16  16  16             -0.0390
+  1   1  6  16  16  16  16             -0.0194
+----------------------------------------------
+  1   2  2  16  16  15  16              0.0778
+  1   2  4  16  16  15  16              0.0424
+  1   2  6  16  16  15  16             -0.0952
+----------------------------------------------
+  2   2  0  15  16  15  16              1.0000
+  2   2  2  15  16  15  16              0.0952
+  2   2  4  15  16  15  16             -0.0476
+  2   2  2  15  16  16  15              0.0108
+  2   2  4  15  16  16  15              0.0433
+  2   2  6  15  16  16  15             -0.0971
+----------------------------------------------
+  1   3  2  16  16  15  15              0.0135
+  1   3  4  16  16  15  15             -0.0367
+  1   3  6  16  16  15  15              0.0824
+----------------------------------------------
+  2   3  2  15  16  15  15             -0.0792
+----------------------------------------------
+  3   3  0  15  15  15  15              1.0000
+  3   3  2  15  15  15  15              0.0229
+  3   3  4  15  15  15  15             -0.0476
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           7  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           6  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           4  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           6 /           6
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 7 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 6 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 4 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Block            4 ,  ncf =            1
+ Loading CSF File for block            4
+ There are            1  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  1  1  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  6  8  1  1  1
+JCUPA:   7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   7
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   1
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  15  16  15  16              1.0000
+  1   1  2  15  16  15  16             -0.0272
+  1   1  4  15  16  15  16             -0.0272
+  1   1  2  15  16  16  15             -0.0172
+  1   1  4  15  16  16  15             -0.0031
+  1   1  6  15  16  16  15             -0.0389
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           2  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           2  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           1  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           1 /           1
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 2 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 2 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 1 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Block            5 ,  ncf =            3
+ Loading CSF File for block            5
+ There are            3  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  0  2  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  9  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   9
+
+
+
+CSF:  2
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  1  1  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  6  8  1  1  1
+JCUPA:   9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   9
+
+
+
+CSF:  3
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  2  0  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  9  1  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:   9
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   3
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  16  16  16  16              1.0000
+  1   1  2  16  16  16  16             -0.0794
+  1   1  4  16  16  16  16              0.0130
+  1   1  6  16  16  16  16             -0.0194
+----------------------------------------------
+  1   2  2  16  16  15  16              0.0402
+  1   2  4  16  16  15  16             -0.0448
+  1   2  6  16  16  15  16             -0.0223
+----------------------------------------------
+  2   2  0  15  16  15  16              1.0000
+  2   2  2  15  16  15  16             -0.1143
+  2   2  4  15  16  15  16              0.0519
+  2   2  2  15  16  16  15              0.0190
+  2   2  4  15  16  16  15             -0.0371
+  2   2  6  15  16  16  15             -0.0106
+----------------------------------------------
+  1   3  2  16  16  15  15             -0.0149
+  1   3  4  16  16  15  15              0.0369
+  1   3  6  16  16  15  15              0.0083
+----------------------------------------------
+  2   3  4  15  16  15  15             -0.0428
+----------------------------------------------
+  3   3  0  15  15  15  15              1.0000
+  3   3  2  15  15  15  15             -0.1143
+  3   3  4  15  15  15  15             -0.0159
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           6  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           7  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           4  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           6 /           6
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 6 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 7 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 4 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Block            6 ,  ncf =            1
+ Loading CSF File for block            6
+ There are            1  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  1  1  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  6  8  1  1  1
+JCUPA:  11  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:  11
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   1
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  15  16  15  16              1.0000
+  1   1  2  15  16  15  16             -0.1007
+  1   1  4  15  16  15  16             -0.0254
+  1   1  2  15  16  16  15             -0.0104
+  1   1  4  15  16  16  15             -0.0215
+  1   1  6  15  16  16  15             -0.0018
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           2  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           2  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           1  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           1 /           1
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 2 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 2 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 1 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Block            7 ,  ncf =            2
+ Loading CSF File for block            7
+ There are            2  relativistic CSFs... load complete;
+
+Array output
+------------
+
+
+CSF:  1
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  0  2  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 13  1  1  1
+JCUPA:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:  13
+
+
+
+CSF:  2
+IQA:   2  2  2  4  2  2  4  4  6  2  2  4  4  6  1  1  2  2  4
+JQSA(1):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  0  0  0
+JQSA(2):   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+JQSA(3):   1  1  1  1  1  1  1  1  1  1  1  1  1  1  6  8  1  1  1
+JCUPA:  13  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+LAST:  13
+
+
+
+
+
+JASTRT =  1
+JBSTRT =  1
+NCF =   2
+NPROCS =  1
+
+
+ JA  JB  K  IA  IB  IC  ID    Tshell    Vshell  
+================================================
+  1   1  0  16  16  16  16              1.0000
+  1   1  2  16  16  16  16             -0.0794
+  1   1  4  16  16  16  16             -0.0390
+  1   1  6  16  16  16  16             -0.0015
+----------------------------------------------
+  1   2  2  16  16  15  16             -0.0778
+  1   2  4  16  16  15  16             -0.0193
+  1   2  6  16  16  15  16             -0.0007
+----------------------------------------------
+  2   2  0  15  16  15  16              1.0000
+  2   2  2  15  16  15  16              0.0952
+  2   2  4  15  16  15  16              0.0043
+  2   2  2  15  16  16  15             -0.0159
+  2   2  4  15  16  16  15             -0.0039
+  2   2  6  15  16  16  15             -0.0001
+----------------------------------------------
+
+           0  T coefficients generated;
+           0  V(k=           0 ) coefficients generated;
+           0  V(k=           1 ) coefficients generated;
+           4  V(k=           2 ) coefficients generated;
+           0  V(k=           3 ) coefficients generated;
+           4  V(k=           4 ) coefficients generated;
+           0  V(k=           5 ) coefficients generated;
+           3  V(k=           6 ) coefficients generated;
+           0  V(k=           7 ) coefficients generated;
+ Analysing sparse matrix array definition file ...          30
+  ... complete; density of non-zero elements of H(DC):           3 /           3
+ This part not finished. See outsdampi
+ Sorting 0 T coefficients ...          31
+
+From SORT:
+ Sorting 0 V(k=0) coefficients ...          32
+
+From SORT:
+ Sorting 0 V(k=1) coefficients ...          33
+
+From SORT:
+ Sorting 4 V(k=2) coefficients ...          34
+
+From SORT:
+ Sorting 0 V(k=3) coefficients ...          35
+
+From SORT:
+ Sorting 4 V(k=4) coefficients ...          36
+
+From SORT:
+ Sorting 0 V(k=5) coefficients ...          37
+
+From SORT:
+ Sorting 3 V(k=6) coefficients ...          38
+
+From SORT:
+ Sorting 0 V(k=7) coefficients ...          39
+
+From SORT:
+
+ Wall time:
+        0 seconds
+
+ Finish Date and Time:
+   Date (Yr/Mon/Day): 2019/11/30
+   Time (Hr/Min/Sec): 16/42/47.906
+   Zone: -0800
+
+ RANGULAR: Execution complete.
