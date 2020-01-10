@@ -107,6 +107,58 @@ From SORT:
 
 From SORT:
 
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    3
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f-; 4f-, 4f-):
+  V^[( 2)]_[       2,       3] =  2.285714285714D-01
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       2,       2] =  3.299144395369D-02
+ R^[( 2)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 2)]_[       1,       1] =  2.380952380952D-01
+  Number of integrals is    3
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f-; 4f-, 4f-):
+  V^[( 4)]_[       2,       3] =  9.523809523810D-02
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       2,       2] =  7.498055444021D-02
+ R^[( 4)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 4)]_[       1,       1] =  1.168831168831D-01
+  Number of integrals is    3
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 6)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 6)]_[       2,       2] =  2.018707234929D-01
+ R^[( 6)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 6)]_[       1,       1] =  5.827505827506D-02
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+
+
  Block            2 ,  ncf =            1
  Loading CSF File for block            2
  There are            1  relativistic CSFs... load complete;
@@ -182,6 +234,52 @@ From SORT:
  Sorting 0 V(k=7) coefficients ...          39
 
 From SORT:
+
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    1
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 2)]_[       1,       1] =  2.040816326531D-01
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       1,       1] = -4.081632653061D-03
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 4)]_[       1,       1] =  6.122448979592D-02
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       1,       1] = -3.092145949289D-02
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    1
+
+From SORT:
+  Number of integrals is    0
+
+
+
+
 
  Block            3 ,  ncf =            3
  Loading CSF File for block            3
@@ -298,6 +396,72 @@ From SORT:
 
 From SORT:
 
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    6
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f-; 4f-, 4f-):
+  V^[( 2)]_[       3,       6] =  2.285714285714D-02
+ R^[( 2)] ( 4f-, 4f-; 4f-, 4f ):
+  V^[( 2)]_[       3,       5] = -7.917946548886D-02
+ R^[( 2)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 2)]_[       2,       3] =  9.523809523810D-02
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       3,       4] =  1.346870059403D-02
+  V^[( 2)]_[       2,       3] =  1.079365079365D-02
+ R^[( 2)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 2)]_[       2,       2] =  7.776157913597D-02
+ R^[( 2)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 2)]_[       1,       1] =  1.111111111111D-01
+  Number of integrals is    6
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f-; 4f-, 4f-):
+  V^[( 4)]_[       3,       6] = -4.761904761905D-02
+ R^[( 4)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 4)]_[       2,       3] = -4.761904761905D-02
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       2,       3] =  4.329004329004D-02
+  V^[( 4)]_[       3,       4] = -3.673281980190D-02
+ R^[( 4)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 4)]_[       2,       2] =  4.241540680144D-02
+ R^[( 4)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 4)]_[       1,       1] = -3.896103896104D-02
+  Number of integrals is    5
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 6)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 6)]_[       3,       4] =  8.241337776067D-02
+  V^[( 6)]_[       2,       3] = -9.712509712510D-02
+ R^[( 6)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 6)]_[       2,       2] = -9.516277166990D-02
+ R^[( 6)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 6)]_[       1,       1] = -1.942501942502D-02
+  Number of integrals is    3
+
+From SORT:
+  Number of integrals is    0
+
+
+
  Block            4 ,  ncf =            1
  Loading CSF File for block            4
  There are            1  relativistic CSFs... load complete;
@@ -373,6 +537,49 @@ From SORT:
  Sorting 0 V(k=7) coefficients ...          39
 
 From SORT:
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    1
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 2)]_[       1,       1] = -2.721088435374D-02
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       1,       1] = -1.723356009070D-02
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 4)]_[       1,       1] = -2.721088435374D-02
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       1,       1] = -3.092145949289D-03
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    1
+
+From SORT:
+  Number of integrals is    0
+
+
 
  Block            5 ,  ncf =            3
  Loading CSF File for block            5
@@ -489,6 +696,72 @@ From SORT:
 
 From SORT:
 
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    6
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f-; 4f-, 4f-):
+  V^[( 2)]_[       3,       6] = -1.142857142857D-01
+ R^[( 2)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 2)]_[       2,       3] = -1.142857142857D-01
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       2,       3] =  1.904761904762D-02
+  V^[( 2)]_[       3,       4] = -1.489020876134D-02
+ R^[( 2)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 2)]_[       2,       2] =  4.015590679579D-02
+ R^[( 2)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 2)]_[       1,       1] = -7.936507936508D-02
+  Number of integrals is    5
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f-; 4f-, 4f-):
+  V^[( 4)]_[       3,       6] = -1.587301587302D-02
+ R^[( 4)] ( 4f-, 4f-; 4f-, 4f ):
+  V^[( 4)]_[       3,       5] = -4.280634047386D-02
+ R^[( 4)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 4)]_[       2,       3] =  5.194805194805D-02
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       3,       4] =  3.691787296201D-02
+  V^[( 4)]_[       2,       3] = -3.712449166995D-02
+ R^[( 4)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 4)]_[       2,       2] = -4.480204477216D-02
+ R^[( 4)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 4)]_[       1,       1] =  1.298701298701D-02
+  Number of integrals is    6
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 6)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 6)]_[       3,       4] =  8.282856113272D-03
+  V^[( 6)]_[       2,       3] = -1.059546514092D-02
+ R^[( 6)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 6)]_[       2,       2] = -2.233720180948D-02
+ R^[( 6)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 6)]_[       1,       1] = -1.942501942502D-02
+  Number of integrals is    3
+
+From SORT:
+  Number of integrals is    0
+
+
+
  Block            6 ,  ncf =            1
  Loading CSF File for block            6
  There are            1  relativistic CSFs... load complete;
@@ -565,7 +838,49 @@ From SORT:
 
 From SORT:
 
- Block            7 ,  ncf =            2
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    1
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 2)]_[       1,       1] = -1.006802721088D-01
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       1,       1] = -1.043083900227D-02
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 4)]_[       1,       1] = -2.535559678417D-02
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       1,       1] = -2.147635913870D-02
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    1
+
+From SORT:
+  Number of integrals is    0
+
+
+Block            7 ,  ncf =            2
  Loading CSF File for block            7
  There are            2  relativistic CSFs... load complete;
 
@@ -659,6 +974,62 @@ From SORT:
  Sorting 0 V(k=7) coefficients ...          39
 
 From SORT:
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    3
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 2)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 2)]_[       2,       3] =  9.523809523810D-02
+ R^[( 2)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 2)]_[       2,       3] = -1.587301587302D-02
+ R^[( 2)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 2)]_[       2,       2] = -7.776157913597D-02
+ R^[( 2)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 2)]_[       1,       1] = -7.936507936508D-02
+  Number of integrals is    4
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 4)] ( 4f-, 4f ; 4f-, 4f ):
+  V^[( 4)]_[       2,       3] =  4.329004329004D-03
+ R^[( 4)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 4)]_[       2,       3] = -3.935458480913D-03
+ R^[( 4)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 4)]_[       2,       2] = -1.927973036429D-02
+ R^[( 4)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 4)]_[       1,       1] = -3.896103896104D-02
+  Number of integrals is    4
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 6)] ( 4f-, 4f-; 4f , 4f ):
+  V^[( 6)]_[       2,       3] = -1.358392966785D-04
+ R^[( 6)] ( 4f-, 4f ; 4f , 4f ):
+  V^[( 6)]_[       2,       2] = -6.654739277615D-04
+ R^[( 6)] ( 4f , 4f ; 4f , 4f ):
+  V^[( 6)]_[       1,       1] = -1.494232263463D-03
+  Number of integrals is    3
+
+From SORT:
+  Number of integrals is    0
+
 
  Wall time:
         0 seconds

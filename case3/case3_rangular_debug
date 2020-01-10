@@ -94,6 +94,47 @@ From SORT:
 
 From SORT:
 
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    3
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 1)] ( 3s , 3s ; 3p-, 3p-):
+  V^[( 1)]_[       1,       1] = -3.333333333333D-01
+ R^[( 1)] ( 3s , 3p-; 3p , 3d-):
+  V^[( 1)]_[       1,       2] = -4.714045207910D-01
+ R^[( 1)] ( 3p , 3p ; 3d-, 3d-):
+  V^[( 1)]_[       2,       3] = -6.666666666667D-02
+  Number of integrals is    3
+
+From SORT:
+ R^[( 2)] ( 3s , 3p-; 3d-, 3p ):
+  V^[( 2)]_[       1,       2] =  2.828427124746D-01
+ R^[( 2)] ( 3p , 3d-; 3p , 3d-):
+  V^[( 2)]_[       2,       3] =  2.000000000000D-01
+  Number of integrals is    2
+
+From SORT:
+  Number of integrals is    1
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+
+
+
  Block            2 ,  ncf =            5
  Loading CSF File for block            2
  There are            5  relativistic CSFs... load complete;
@@ -241,6 +282,91 @@ From SORT:
  Sorting 0 V(k=5) coefficients ...          37
 
 From SORT:
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):   15
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 1)] ( 3s , 3s ; 3p-, 3p-):
+  V^[( 1)]_[       2,       3] = -1.111111111111D-01
+ R^[( 1)] ( 3s , 3s ; 3p-, 3p ):
+  V^[( 1)]_[       1,       2] =  3.142696805274D-01
+ R^[( 1)] ( 3s , 3p-; 3p-, 3d-):
+  V^[( 1)]_[       2,      12] = -3.142696805274D-01
+ R^[( 1)] ( 3s , 3p ; 3p-, 3d-):
+  V^[( 1)]_[       1,      11] = -1.111111111111D-01
+ R^[( 1)] ( 3s , 3s ; 3p , 3p ):
+  V^[( 1)]_[       1,       1] =  1.111111111111D-01
+ R^[( 1)] ( 3s , 3p-; 3p , 3d-):
+  V^[( 1)]_[       2,       8] = -3.513641844632D-01
+ R^[( 1)] ( 3s , 3p ; 3p , 3d-):
+  V^[( 1)]_[       1,       7] =  9.938079899999D-02
+ R^[( 1)] ( 3s , 3p ; 3p , 3d ):
+  V^[( 1)]_[       1,       4] = -4.472135955000D-01
+ R^[( 1)] ( 3p-, 3p-; 3d-, 3d-):
+  V^[( 1)]_[       5,      15] =  1.111111111111D-01
+ R^[( 1)] ( 3p-, 3p ; 3d-, 3d-):
+  V^[( 1)]_[       4,      14] = -9.938079899999D-02
+ R^[( 1)] ( 3p , 3p ; 3d-, 3d-):
+  V^[( 1)]_[       4,      10] =  4.888888888889D-02
+ R^[( 1)] ( 3p , 3p ; 3d-, 3d ):
+  V^[( 1)]_[       3,       9] =  8.000000000000D-02
+ R^[( 1)] ( 3p , 3p ; 3d , 3d ):
+  V^[( 1)]_[       3,       6] =  4.000000000000D-02
+  Number of integrals is   13
+
+From SORT:
+ R^[( 2)] ( 3s , 3p-; 3d-, 3p ):
+  V^[( 2)]_[       1,      11] = -2.000000000000D-01
+  V^[( 2)]_[       2,       8] =  1.264911064067D-01
+ R^[( 2)] ( 3s , 3p ; 3d-, 3p ):
+  V^[( 2)]_[       1,       7] = -1.788854382000D-01
+ R^[( 2)] ( 3s , 3p-; 3d , 3p ):
+  V^[( 2)]_[       2,       5] = -2.529822128135D-01
+ R^[( 2)] ( 3s , 3p ; 3d , 3p ):
+  V^[( 2)]_[       1,       4] = -8.944271909999D-02
+ R^[( 2)] ( 3p-, 3d-; 3p , 3d-):
+  V^[( 2)]_[       4,      14] =  1.788854382000D-01
+ R^[( 2)] ( 3p-, 3d-; 3p , 3d ):
+  V^[( 2)]_[       3,      13] =  8.944271909999D-02
+ R^[( 2)] ( 3p , 3d-; 3p , 3d-):
+  V^[( 2)]_[       4,      10] =  4.000000000000D-02
+ R^[( 2)] ( 3p , 3d-; 3p , 3d ):
+  V^[( 2)]_[       3,       9] = -8.000000000000D-02
+ R^[( 2)] ( 3p , 3d ; 3p , 3d ):
+  V^[( 2)]_[       3,       6] =  1.600000000000D-01
+  Number of integrals is    9
+
+From SORT:
+ R^[( 3)] ( 3p-, 3p ; 3d , 3d-):
+  V^[( 3)]_[       3,      13] =  1.916629695000D-01
+ R^[( 3)] ( 3p , 3p ; 3d-, 3d-):
+  V^[( 3)]_[       4,      10] = -1.542857142857D-01
+ R^[( 3)] ( 3p , 3p ; 3d-, 3d ):
+  V^[( 3)]_[       3,       9] =  1.371428571429D-01
+ R^[( 3)] ( 3p , 3p ; 3d , 3d ):
+  V^[( 3)]_[       3,       6] =  6.857142857143D-02
+  Number of integrals is    4
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+
+
+
+
 
  Block            3 ,  ncf =            5
  Loading CSF File for block            3
@@ -391,8 +517,95 @@ From SORT:
 
 From SORT:
 
- Wall time:
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):   14
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 1)] ( 3s , 3p ; 3p-, 3d-):
+  V^[( 1)]_[       1,      11] =  6.666666666667D-02
+ R^[( 1)] ( 3s , 3p ; 3p-, 3d ):
+  V^[( 1)]_[       1,       7] = -3.265986323711D-01
+ R^[( 1)] ( 3s , 3s ; 3p , 3p ):
+  V^[( 1)]_[       1,       1] = -3.333333333333D-01
+ R^[( 1)] ( 3s , 3p ; 3p , 3d-):
+  V^[( 1)]_[       1,       4] =  1.333333333333D-01
+ R^[( 1)] ( 3s , 3p ; 3p , 3d ):
+  V^[( 1)]_[       1,       2] = -3.055050463304D-01
+ R^[( 1)] ( 3p-, 3p-; 3d-, 3d-):
+  V^[( 1)]_[       5,      14] = -3.333333333333D-01
+ R^[( 1)] ( 3p-, 3p ; 3d-, 3d-):
+  V^[( 1)]_[       3,      13] =  1.333333333333D-01
+ R^[( 1)] ( 3p-, 3p ; 3d-, 3d ):
+  V^[( 1)]_[       3,       9] =  1.632993161855D-01
+ R^[( 1)] ( 3p , 3p ; 3d-, 3d-):
+  V^[( 1)]_[       3,       6] = -1.333333333333D-02
+ R^[( 1)] ( 3p , 3p ; 3d-, 3d ):
+  V^[( 1)]_[       2,       5] = -1.222020185322D-01
+ R^[( 1)] ( 3p , 3p ; 3d , 3d ):
+  V^[( 1)]_[       2,       3] = -1.200000000000D-01
+  Number of integrals is   11
+
+From SORT:
+ R^[( 2)] ( 3s , 3p-; 3d-, 3p ):
+  V^[( 2)]_[       1,      11] = -4.000000000000D-02
+ R^[( 2)] ( 3s , 3p ; 3d-, 3p ):
+  V^[( 2)]_[       1,       4] = -8.000000000000D-02
+ R^[( 2)] ( 3s , 3p-; 3d , 3p ):
+  V^[( 2)]_[       1,       7] =  1.959591794227D-01
+ R^[( 2)] ( 3s , 3p ; 3d , 3p ):
+  V^[( 2)]_[       1,       2] =  1.833030277982D-01
+ R^[( 2)] ( 3p-, 3d-; 3p , 3d-):
+  V^[( 2)]_[       3,      13] = -8.000000000000D-02
+ R^[( 2)] ( 3p-, 3d-; 3p , 3d ):
+  V^[( 2)]_[       2,      12] = -7.855844048496D-02
+  V^[( 2)]_[       3,       9] = -9.797958971133D-02
+ R^[( 2)] ( 3p-, 3d ; 3p , 3d ):
+  V^[( 2)]_[       2,       8] =  1.710471948240D-01
+ R^[( 2)] ( 3p , 3d-; 3p , 3d-):
+  V^[( 2)]_[       3,       6] = -1.200000000000D-01
+ R^[( 2)] ( 3p , 3d-; 3p , 3d ):
+  V^[( 2)]_[       2,       5] = -5.237229365664D-02
+ R^[( 2)] ( 3p , 3d ; 3p , 3d ):
+  V^[( 2)]_[       2,       3] = -2.285714285714D-02
+  Number of integrals is   10
+
+From SORT:
+ R^[( 3)] ( 3p-, 3p-; 3d , 3d ):
+  V^[( 3)]_[       4,      10] = -1.428571428571D-01
+ R^[( 3)] ( 3p-, 3p ; 3d , 3d-):
+  V^[( 3)]_[       2,      12] =  5.611317177497D-02
+ R^[( 3)] ( 3p-, 3p ; 3d , 3d ):
+  V^[( 3)]_[       2,       8] = -1.221765677314D-01
+ R^[( 3)] ( 3p , 3p ; 3d-, 3d-):
+  V^[( 3)]_[       3,       6] = -5.142857142857D-02
+ R^[( 3)] ( 3p , 3p ; 3d-, 3d ):
+  V^[( 3)]_[       2,       5] =  8.978107483995D-02
+ R^[( 3)] ( 3p , 3p ; 3d , 3d ):
+  V^[( 3)]_[       2,       3] = -7.510204081633D-02
+  Number of integrals is    6
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+
+
+
+Wall time:
         0 seconds
+
 
  Finish Date and Time:
    Date (Yr/Mon/Day): 2019/11/30

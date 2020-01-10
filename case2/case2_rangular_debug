@@ -68,6 +68,28 @@ From SORT:
 
 From SORT:
 
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    1
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    1
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+
  Block            2 ,  ncf =            2
  Loading CSF File for block            2
  There are            2  relativistic CSFs... load complete;
@@ -139,6 +161,36 @@ From SORT:
 
 From SORT:
 
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    3
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+ R^[( 1)] ( 3s , 3s ; 3p-, 3p-):
+  V^[( 1)]_[       2,       3] = -1.111111111111D-01
+ R^[( 1)] ( 3s , 3s ; 3p-, 3p ):
+  V^[( 1)]_[       1,       2] =  3.142696805274D-01
+ R^[( 1)] ( 3s , 3s ; 3p , 3p ):
+  V^[( 1)]_[       1,       1] =  1.111111111111D-01
+  Number of integrals is    3
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+
+
+
  Block            3 ,  ncf =            1
  Loading CSF File for block            3
  Subshell 3p- is empty in all CSFs
@@ -195,6 +247,28 @@ From SORT:
  Sorting 0 V(k=3) coefficients ...          35
 
 From SORT:
+
+From MCP:
+
+ From outsdampi :
+ Number of nonzero elements in H(DC):    1
+ This part not finished. See outsdampi
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    1
+
+From SORT:
+  Number of integrals is    0
+
+From SORT:
+  Number of integrals is    0
+
 
  Wall time:
         0 seconds
